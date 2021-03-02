@@ -1,0 +1,46 @@
+
+
+ .body {
+    background-color: rgb(127, 157, 255);
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    background-color: rgb(101, 4, 190);
+    height: 85px;
+    width: 100%;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 8px;
+    margin: 0 5px;
+    padding: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    line-height: 85px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: black;
+}
+

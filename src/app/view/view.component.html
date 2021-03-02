@@ -1,0 +1,27 @@
+<div class="row w-100" style="height: calc(100vh - 85px);">
+	<div class="col-md-2"></div>
+	<div class="col-md-2">
+		<div class="card" style="background-color: burlywood;">
+			<div class="card-horizontal">
+				<div class="photo" style="height: 700px;">
+					<img class="" [src]="getImgURL(movie.poster_path)" alt="Card image cap">
+				</div>
+				<div class="card-body">
+					<h4 class="card-title" style="text-align: center; font-size: 30px;">{{movie.title}}</h4>
+					<p style="text-align: center;">{{movie.tagline}}</p>
+					<div class="text">
+						<p>Rating: {{movie.vote_average}} &#9733;&#9733;&#9733;</p>
+						<p>Status: {{movie.status}}</p>
+					<p class="card-text">Release Date: {{movie.release_date}}</p>
+					<p>Language: {{movie.original_language}}</p>
+					<p>Run-Time: {{movie.runtime}}</p>
+					<p>Revenue: {{movie.revenue}}</p>
+					<p>Description</p>
+					<p>{{movie.overview}}</p>
+				</div>
+				</div>
+				</div>
+		</div>
+	</div>
+	<div class="col-md-2"></div>
+</div>

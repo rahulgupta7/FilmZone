@@ -1,0 +1,35 @@
+<h1 style="margin: 30px 0 30px 160px">Latest Movies</h1>
+<div class="list">
+    <div class="row w-100">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <div class="row w-100">
+                <div class="col-md-3" *ngFor="let movie of movieList">
+                    <div class="card mb-2 ml-2 two" style="height: 425px;">
+                        <img style="height: 55%;" [src]="getImgURL(movie.poster_path)" alt="">
+                        <div class="card-body one" style="color: rgb(0, 0, 0);">
+                            <div>
+                                <span style="font-size: 20px;">Title: {{movie.title}}</span>
+                            </div>
+                            <div>
+                                <span>Release Date: {{movie.release_date}}</span>
+                            </div>
+                            <div>
+                                <span>Language: {{movie.original_language}}</span>
+                            </div>
+                            <div>
+                                <span>Rating: {{movie.vote_average}} &#9733;&#9733;&#9733;</span>
+                            </div>
+                            <div class="three">
+                                <span routerLink="../view/{{movie.id}}" class="btn btn-success">View</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>
