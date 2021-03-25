@@ -42,7 +42,7 @@ export const router:Routes = [
             },
             {
                 path:"",
-                redirectTo:"home",
+                redirectTo:"/dashboard/home",
                 pathMatch:"full"
             }
          ]

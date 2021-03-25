@@ -9,7 +9,8 @@ import { Router } from "@angular/router";
 })
 export class DashboardComponent implements OnInit {
 
-  constructor() { 
+  constructor(private router:Router) { 
+    this.router.navigate(["dashboard/home"])
     
   }
 
