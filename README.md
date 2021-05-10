@@ -1,3 +1,7 @@
+# Overview of App
+
+![Overview](https://user-images.githubusercontent.com/76985328/117669953-2c040000-b1c7-11eb-972a-8616fbe9a47e.png)
+
 # Movie
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
